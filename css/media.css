@@ -1,0 +1,314 @@
+@media (max-width: 1250px) {
+  .button {
+    display: flex;
+    justify-content: center;
+    /* display: grid; */
+    /* grid-template-columns: auto auto; */
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav-items1 h4 {
+    display: none;
+  }
+  .car{
+    height: 150px;
+  }
+  
+  .card {
+    grid-template-columns: auto auto auto;
+  }
+  .footer{
+    height: 100vh;
+  }
+  
+  .mat{
+    width: 100%;
+  }
+  .left1{
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1010px) {
+  .nav-items2 {
+    display: none;
+  }
+  .cars1{
+    flex-direction: column;
+  }
+  .mat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 60vw; */
+  }
+
+  .login-signup {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+@media (max-width: 980px) {
+    .mat{
+        display: none;
+    }
+}
+@media (max-width: 890px) {
+    .left1 .btn2{
+        display: block;
+        margin-top: 10px;
+    }
+    .footerA{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .rightA{
+      width: 100%;
+      margin-top: 10px;
+    }
+    .rightB{
+      width: 100%;
+    }
+}
+@media (max-width: 830px) {
+  .card {
+    grid-template-columns: auto auto;
+  }
+  .footer1 {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .icons1 {
+    margin-top: 1px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 770px) {
+  .navbar1 {
+    display: none;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  .btn1 {
+    height: 40px;
+    width: 200px;
+  }
+  .cardHeading {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 700px) {
+    .footer2{
+        flex-direction: column;
+    }
+    .cars{
+      flex-direction: column;
+      
+    }
+    .car{
+      height: 120px;
+    }
+}
+@media (max-width: 650px) {
+  .videos {
+    flex-direction: column;
+  }
+  .sign{
+    width: 80%;
+  }
+  .login{
+    width: 80%;
+  }
+  .videos iframe {
+    width: 400px;
+  }
+  .footer1{
+    height: 75vh;
+  }
+  .left {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 75vh;
+  }
+}
+@media (max-width: 600px) {
+  /* .videos{
+        display: none;
+    } */
+    .footerA{
+      margin-top: 10px;
+      height: 110vh;
+      width: 100%;
+    }
+    .rightA{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .rightA .boxers{
+      margin-top: 12px;
+    }
+}
+@media (max-width: 570px) {
+  .cardHeading {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .card {
+    grid-template-columns: auto;
+  }
+  .carl {
+    height: 200px;
+    width: 400px;
+  }
+  .carl1{
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (max-width: 521px) {
+  .btn1 {
+    height: 30px;
+    width: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .logicon {
+    display: block;
+  }
+  .login-signup {
+    display: none;
+  }
+  .sign{
+    width: 100%;
+    height: 100vh;
+  }
+  .footer{
+    height: 150vh;
+  }
+  .footer1 {
+    height: 120vh;
+    background-color: #d0c4ca;
+  }
+
+  .text h2{
+    font-size: 70px;
+  }
+  .login{
+    width: 100%;
+    height: 100%;
+  }
+  .former{
+    width: 300px;
+  }
+  .left {
+    grid-template-columns: auto;
+    height: 100vh;
+    /* background-color: #d0c4ca; */
+  }
+  .icons1{
+    margin-left: 130px;
+    margin-top: 10px;
+  }
+  .car{
+    height: 150px;
+    width: 350px;
+  }
+  /* .footer{
+        height: 150vh;
+    } */
+}
+@media (max-width: 430px) {
+  .btn1 {
+    height: 30px;
+    width: 140px;
+    margin-right: 17px;
+  }
+  .carl {
+    height: 250px;
+    width: 350px;
+  }
+  .carl1{
+    width: 350px;
+
+  }
+  .forms{
+    width: 300px;
+  }
+  .text h2{
+    font-size: 50px;
+  }
+  .text p{
+    font-size: 18px;
+  }
+  .icons1{
+    margin-left: 80px;
+}
+  .videos iframe {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 380px) {
+    .left1 img{
+        /* flex-direction: column; */
+        display: block;
+        margin-top: 5px;
+    }
+    .car{
+      width: 300px;
+    }
+    .carl {
+      height: 300px;
+      width: 300px;
+    }
+    .carl1{
+      width: 300px;
+      height: 500px;
+  
+    }
+    .container h1{
+      font-size: 25px;
+    }
+}
+@media (max-width: 370px) {
+  .btn1 {
+    height: 30px;
+    width: 140px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .btn1 {
+    display: none;
+  }
+  .videos iframe {
+    width: 270px;
+    height: 300px;
+  }
+  .forms{
+    width: 250px;
+  }
+  .former{
+    width: 250px;
+  }
+}

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2014/04/03/00/38/house-308936_640.png" type="image/x-icon">
+    <title>Exclusive</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css">
+  
+  </head>
+  <body>
+  <div class="navbar1">
+    <div class="anchor"><a href="">LOW COST SHIPPING</a></div>
+
+    <div class="srch-items">
+      <input
+        type="search"
+        name=""
+        id="srch"
+        placeholder="Product, Keyword, Code.."
+      />
+      <i id="searchBar" class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <ul class="nav-items1">
+      <h4><i class="fa-solid fa-phone-volume">&nbsp;03012962668</i></h4>
+      <li><a href="https://web.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube"></i></a></li>
+      <li><a href="https //www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a></li>
+    </ul>
+  </div>
+  <!-- 2nd navbar -->
+
+  
+ <div class="navbar2">
+    <div class="hamburger"><h1><i class="fa-solid fa-bars"></i></h1></div>
+    <div class="logo"></div>
+    <ul style="margin-top: 25px;" class="nav-items2">
+      <li><a style="border: 2px solid transparent; border-bottom: 2px solid black;" href="./index.html">Home</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./specialoffer.html">Special Offers</a></li>
+      <li><a href="./newArrival.html">New Arrivals</a></li>
+      <li><a href="./products.html">Products</a></li>
+      <li><a href="./contact.html">Contact us</a></li>
+    </ul>
+    <!-- <div class="logicon"><h1><i class="fa-solid fa-right-to-bracket"></i></h1></div> -->
+    <div class="login-signup">
+      
+      <button style="padding: 10px 8px 7px 8px; border-radius: 6px" class="">
+        <a href="./login.html">LOGIN</a>
+      </button>
+      <button style="padding: 10px 8px 7px 8px; border-radius: 6px" class="">
+        <a href="./signup.html">Signup</a>
+      </button>
+    </div>
+  </div> 
+
+  <div class="openmenu">
+      <ul class="open-nav-items2">
+      <li><a style="border: 2px solid transparent; border-bottom: 2px solid black;" href="./index.html">Home</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./specialoffer.html">Special Offers</a></li>
+      <li><a href="./newArrival.html">New Arrivals</a></li>
+      <li><a href="./products.html">Products</a></li>
+      <li><a href="./contact.html">Contact us</a></li>
+    </ul>
+    <div class="open-login-signup">
+      
+      <button style="padding: 10px 10px; border-radius: 6px" class="">
+        <a href="./login.html">LOGIN</a>
+      </button>
+      <button style="padding: 10px 10px; border-radius: 6px" class="">
+        <a href="./signup.html">Signup</a>
+      </button>
+    </div>
+  </div>
+  <h1 class="container my-5 text-light">Exclusive Range</h1>
+  <h4 class="container my-5 text-light">This is our Exclusive Range of top quality products. Only the best, hand selected pieces will appear here - get them quick before they go!</h4>
+  <div class="card my-5">      
+  </div>
+  <!-- modal -->
+  <!-- Modal -->
+  <div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Buy Now</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form class="fullName">
+          <input
+            class="form-control"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+          />
+          <input
+            class="form-control my-2"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+          <input
+            class="form-control my-2"
+            type="text"
+            name="adress"
+            id="adress"
+            placeholder="Enter Your adress"
+          />
+          <input
+            class="form-control my-2"
+            type="number"
+            name="quantity"
+            id="quantity"
+            placeholder="Enter Your Quantity"
+          />
+          <!-- <input class="form-control" id="price" placeholder=""></input> -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              onclick="notification()"
+              type="submit"
+              class="btn btn-secondary"
+            >
+              Buy Now
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="footerA my-3">
+    <div class="rightA">
+      <div class="boxers">        
+        <ul class="boxer">
+            <h4>Shoping with us</h4>
+            <li><a href="./newArrival.html">New Products</a></li>
+            <li><a href="./specialoffer.html">Crystal Products Sale</a></li>
+            <li><a href="./stonetype.html">Stone Types</a></li>
+            <li><a href="./crystalinfo.html">crystal information</a></li>
+            <li><a href="./products.html">crystal product tv</a></li>
+        </ul>
+    </div>
+    <div class="boxers">        
+        <ul class="boxer">
+            <h4>Help</h4>
+            <li><a href="./order.html">Order and payment</a></li>
+            <li><a href="">Delievery informations</a></li>
+            <li><a href="./faq.html">FAQs</a></li>
+            <li><a href="./contact.html">contact us</a></li>
+            <li><a href="./login.html">login</a></li>
+        </ul>
+    </div>
+    <div class="boxers">        
+        <ul class="boxer">
+          <h4>About Us</h4>
+            <li><a href="./about.html">Terms & condition</a></li>
+            <li><a href="./about.html">Privacy statement</a></li>
+            <li><a href="./return.html">return or refund</a></li>
+            <li><a href="./site.html">site map</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="rightB">
+      <div class="iconsA">
+        <a href="https://visa.nadra.gov.pk/" target="blank"><img src="https://www.crystalage.com/assets/img/card-logos/visa.svg" alt=""></a>
+        <a href="https://www.mastercard.us/en-us.html" target="blank"><img src="https://www.crystalage.com/assets/img/card-logos/mastercard.svg" alt=""></a>
+        <a href="https://www.paypal.com/pk/home" target="blank"><img src="https://www.crystalage.com/assets/img/card-logos/paypal.svg" alt=""></a>
+    </div>
+    </div>
+  </div>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"
+></script>
+<script src="./js/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $(document).ready(function(){
+$('.hamburger').click(function(){
+  $('.openmenu').toggle()
+})
+$('#srch').on("keyup" , function(){
+let inp = $('#srch').val().toUpperCase();
+$('.card .box').filter(function(){
+  $(this).toggle($(this).text().toUpperCase().indexOf(inp) >-1)
+})
+})
+
+})
+
+$('.fullName').validate({
+rules : {
+  name : {
+    required : true,
+    minlength : 3
+  },
+  email : {
+    required : true,
+    email : true
+  },
+  adress : {
+    required : true,
+    minlength : 25
+  },
+  quantity : {
+    required : true,
+    number : true,
+    quantity : true
+  }
+},
+messages : {
+  name : {
+    required : "the name must be required ",
+    name : " the name must be three chracters"
+  },
+  email : {
+    required : "The Email must be required ",
+    email : "enter a valid email adress"
+  },
+  adress : {
+    required : "adress to btaoo",
+    adress : "adress must 25 words or more"
+  },
+  quantity : {
+    required : "quantity to btaoo",
+    quantity : "quantity to btaoo"
+  
+  }
+}
+})
+function notification(){
+if(document.getElementById('name').value.length >= 3 && document.getElementById('email').value.includes('@') && document.getElementById('adress').value.length >= 25){
+  alert('your order is in process')
+}else{
+  $('.fullName').validate({
+rules : {
+  name : {
+    required : true,
+    minlength : 3
+  },
+  email : {
+    required : true,
+    email : true
+  },
+  adress : {
+    required : true,
+    minlength : 25
+  },
+  quantity : {
+    required : true,
+    number : true,
+    min_number : 2
+  }
+},
+messages : {
+  name : {
+    required : "the name must be required ",
+    name : " the name must be three chracters"
+  },
+  email : {
+    required : "The Email must be required ",
+    email : "enter a valid email adress"
+  },
+  adress : {
+    required : "adress to btaoo",
+    adress : "adress must 25 words or more"
+  },
+  quantity : {
+    required : "quantity to btaoo"
+  }
+}
+})
+}
+}
+
+</script>
+
+<script>
+  let arr = [
+  {
+    image : "https://www.crystalage.com/img/products/amethyst-geode-sphere-77mm_2.jpg",
+    name : "Amethyst Geode",
+    price : 350
+  },
+  {
+    image : "https://www.crystalage.com/img/products/rainbow-aura-quartz-healing-crystal-45mm_16.jpg",
+    name : "rainbow aura quartz",
+    price : 600
+  },
+  {
+    image : "https://www.crystalage.com/img/products/lovely-amethyst-geode-sphere-105mm_2.jpg",
+    name : "Amethyst Geode lovely",
+    price : 250
+  },
+  {
+    image : "https://www.crystalage.com/img/products/aqua-aura-quartz-healing-crystal-50mm_71.jpg",
+    name : "  amazing aqua aura quartz",
+    price : 400
+  },
+  {
+    image : "https://www.crystalage.com/img/products/blue-kyanite-paraiba-healing-crystal-70mm_16.jpg",
+    name : "Amazing blue kianite",
+    price : 300
+  },
+  {
+    image : "https://www.crystalage.com/img/products/phantom-citrine-point-38-x-28mm_2.jpg",
+    name : "AMAZING Phantom Citrine Point",
+    price : 550
+  },
+  {
+    image : "https://www.crystalage.com/img/products/amethyst-polished-flame-119mm_2.jpg",
+    name : "attaractive flame",
+    price : 450
+  },
+  {
+    image : "https://www.crystalage.com/img/products/rhodochrosite-and-silver-pendant-freeform-25mm_4.jpg",
+    name : "attractive Pendant",
+    price : 350
+  },
+  {
+    image : "https://www.crystalage.com/img/products/ametrine-polished-point-7-9cm_2.jpg",
+    name : "  BEAUTIFUL Ametrine Polished Point",
+    price : 280
+  },
+  {
+    image : "https://www.crystalage.com/img/products/beautiful-apophyllite-crystal-cluster-150x140mm_2.jpg",
+    name : "BEAUTIFUL Apophyllite Crystal Cluster",
+    price : 260
+  },
+  {
+    image : "https://www.crystalage.com/img/products/beautiful-quartz-faceted-polished-heart-60mm_3.jpg",
+    name : "   BEAUTIFUL Quartz Faceted Polished Heart ",
+    price : 210
+  },
+  {
+    image : "https://www.crystalage.com/img/products/beautiful-quartz-polished-heart-60mm_2.jpg",
+    name : "BEAUTIFUL Quartz Polished Heart",
+    price : 330
+  },
+  {
+    image : "https://www.crystalage.com/img/products/amethyst-natural-crystal-point-77mm_2.jpg",
+    name : "extra large amethyst natural",
+    price : 380
+  },
+  {
+    image : "https://www.crystalage.com/img/products/fantastic-malachite-freeform-108x102mm_2.jpg",
+    name : "FANTASTIC Malachite Freeform",
+    price : 380
+  },
+  {
+    image : "https://www.crystalage.com/img/products/golden-iron-pyrite-complex-healing-mineral-collector-grade-87mm_2.jpg",
+    name : "GOLDEN Iron Pyrite Complex Healing Mineral (Collector Grade)",
+    price : 440
+  },
+  {
+    image : "https://www.crystalage.com/img/products/citrine-cluster-85mm_2.jpg",
+    name : "GORGEOUS Citrine Cluster",
+    price : 370
+  },
+  {
+    image : "https://www.crystalage.com/img/products/rhodonite-snowflake-crystal-sphere-5-6cm_5.jpg",
+    name : "GORGEOUS Rhodonite Snowflake Crystal Sphere",
+    price : 650
+  },
+  {
+    image : "https://www.crystalage.com/img/products/herkimer-diamond-healing-crystal-46mm_5.jpg",
+    name : "HEAVENLY Herkimer Diamond Healing Crystal ~46mm",
+    price : 80
+  },
+  {
+    image : "https://www.crystalage.com/img/products/phantom-quartz-polished-point-80-x-37-mm_2.jpg",
+    name : "LOVELY Phantom Quartz Polished Point",
+    price : 75
+  },
+  {
+    image : "https://www.crystalage.com/img/products/moldavite-healing-crystal-collector-grade-25mm_56.jpg",
+    name : "MASTER HEALER Smoky Elestial Quartz Crystal ",
+    price : 550
+  },
+]
+
+function display(){
+  let str = '';
+  arr.forEach(function(data, index){
+    str += `
+    <div class="box">
+        <img
+          src="https://www.crystalage.com/img/products/moldavite-healing-crystal-collector-grade-25mm_56.jpg"
+          alt=""
+        />
+        <h1 class="text-light">
+            MASTER HEALER Smoky Elestial Quartz Crystal 
+        </h1>
+        <p class="text-info"><i class="fa-solid fa-euro-sign text-info"></i>1600</p>
+        
+        <!-- <input class="form-control" type="number" name="number" id="price"> -->
+        <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal"  data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Now</button>
+      </div>`
+  })
+  document.querySelector('.card').innerHTML = str
+}
+display()
+</script>
+</body>
+</html>
